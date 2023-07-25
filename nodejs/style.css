@@ -1,0 +1,58 @@
+body{
+    background-image: url(supermarket-507295_1280.jpg);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid#000000;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 25%;
+    box-shadow: 0 0 8px #2be3ff;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #fafafa;
+    border: 1.5px solid #16e1e1;
+}
+
+tbody tr:nth-child(even){
+    background-color: #fff;
+    border: 1.5px solid #0fe6de;
+}
+
+thead th{
+    background-color: #2be3ff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+td{
+    padding: 10px;
+}
+
+tbody tr:hover {
+    background-color: #0fe6de;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr.active {
+    background-color: #a9a9a9;
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #2be3ff;
+    text-shadow: rgb(0, 0, 0) -4px 7px;
+    font-size: 400%;
+    font-display: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 200%;
+}
